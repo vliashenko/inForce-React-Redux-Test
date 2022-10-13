@@ -1,0 +1,170 @@
+/*------------STYLE RESET-------------*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  color: #333333;
+  font-family: Manrope;
+  font-weight: 500;
+  scroll-behavior: smooth !important;
+}
+
+[class*="__container"]{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@media(max-width: 1199.98px){
+  [class*="__container"] {
+      max-width: 970px;
+  }
+}
+
+@media(max-width: 990.98px){
+  [class*="__container"] {
+      max-width: 750px;
+  }
+}
+
+@media(max-width: 767.98px){
+  [class*="__container"] {
+      max-width: none;
+      padding: 0px 15px;
+  }
+}
+
+.wrapper{
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.page{
+  flex: 1 1 auto;
+}
+
+.PDP, .PLP {
+  margin: 100px auto;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cart {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.cart__detail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cart__img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cart__name {
+  font-size: 20px;
+}
+.cart__comments {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.comment {
+  margin-top: 10px;
+  width: 70%;
+}
+
+hr {
+  margin: 20px 0;
+  background-color: #eee;
+  border: none;
+  height: 1px;
+}
+
+.delete__detail {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-right: 20px;
+}
+.trash {
+  font-size: 24px;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+.trash:hover {
+  color: red;
+  transform: scale(1.10);
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.button__buy {
+  margin-top: 45px;
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  background-color: rgb(40, 166, 55);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 1px 2px black;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}

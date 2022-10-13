@@ -1,0 +1,87 @@
+.form {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.title {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 20px 0;
+    display: flex;
+}
+
+.form__image__container {
+    width: 220px;
+    height: 280px;
+}
+
+.form__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form__parametrs {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.form__input {
+    border: 0.5px solid rgba(0, 0, 0, 0.211);
+    padding: 10px 25px;
+    font-size: 18px;
+    margin: 6px 0;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.button__container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.button__submit {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(172, 159, 60);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 1px 2px black;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.button__cancel {
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(238, 94, 58);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 1px 2px black;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
